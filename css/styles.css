@@ -1,3 +1,23 @@
+/* Reset */
 * {
+    padding: 0;
+    margin: 0;
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Variables */
+
+:root {
+    --main-color: #54B689;
+    --main-text-color: #fff;
+    --border-color: #999;
+    --bio-bg-color: #1e2a3a;
+    --bio-border-color: #293544;
+    --abou-bg-color: #111821;
+}
+
+/* General */
+.highlight {
+    color:var(--main-color);
 }
