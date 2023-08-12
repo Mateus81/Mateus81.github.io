@@ -51,10 +51,11 @@
 }
 
 #bio-image {
-    width: 100px;
-    height: 100px;
+    width: 80px; /* Reduzindo o tamanho */
+    height: 80px; /* Reduzindo o tamanho */
     border-radius: 50%;
-    margin-bottom: 25px;
+    margin-bottom: 15px; /* Reduzindo o espaço inferior */
+    filter: brightness(1.2) saturate(1.3); /* Ajustes de cor */
 }
 
 #bio-container p {
